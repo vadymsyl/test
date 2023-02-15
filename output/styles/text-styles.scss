@@ -1,0 +1,323 @@
+@mixin display-2-xl-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.25;
+  letter-spacing: -1.44px;
+}
+
+@mixin display-2-xl-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1.25;
+  letter-spacing: -1.44px;
+}
+
+@mixin display-2-xl-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.25;
+  letter-spacing: -1.44px;
+}
+
+@mixin display-2-xl-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 1.25;
+  letter-spacing: -1.44px;
+}
+
+@mixin display-lg-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: -0.96px;
+}
+
+@mixin display-lg-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: -0.96px;
+}
+
+@mixin display-lg-medium {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: -0.96px;
+}
+
+@mixin display-lg-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: -0.96px;
+}
+
+@mixin display-md-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  letter-spacing: -0.72px;
+}
+
+@mixin display-md-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.22;
+  letter-spacing: -0.72px;
+}
+
+@mixin display-md-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.22;
+  letter-spacing: -0.72px;
+}
+
+@mixin display-md-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.22;
+  letter-spacing: -0.72px;
+}
+
+@mixin display-sm-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.27;
+}
+
+@mixin display-sm-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.27;
+}
+
+@mixin display-sm-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.27;
+}
+
+@mixin display-sm-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.27;
+}
+
+@mixin display-xl-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+@mixin display-xl-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+@mixin display-xl-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+@mixin display-xl-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+@mixin display-xs-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+@mixin display-xs-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+@mixin display-xs-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+@mixin display-xs-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+@mixin text-lg-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+@mixin text-lg-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+@mixin text-lg-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+@mixin text-lg-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+@mixin text-md-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin text-md-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin text-md-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin text-md-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@mixin text-sm-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin text-sm-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin text-sm-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin text-sm-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin text-xl-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@mixin text-xl-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@mixin text-xl-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@mixin text-xl-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@mixin text-xs-bold {
+  font-family: Inter-Bold, serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@mixin text-xs-medium {
+  font-family: Inter-Medium, serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@mixin text-xs-regular {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@mixin text-xs-semibold {
+  font-family: Inter-SemiBold, serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+}
